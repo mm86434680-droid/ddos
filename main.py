@@ -1131,7 +1131,7 @@ def command():
         timer.join()
     elif command == "udp" or command == "UDP":
         target, port, thread, t = get_info_l4()
-        threading.Thread(target=runsender, args=(target, port, t, thread)).start()
+        threading.Thread(target=runsender, args=(target, port, thread, t, "")).start()
         timer = threading.Thread(target=countdown, args=(t,))
         timer.start()
         timer.join()
