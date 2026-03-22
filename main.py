@@ -973,19 +973,22 @@ def tools():
     stdout.write("\n")
 ##############################################################################################
 def title():
-    stdout.write("                                                                                \n")
-    stdout.write("      " + Fore.LIGHTCYAN_EX + "  ╔═══╗  ╔═╗  ╔╗  ╔╗      ╔╗  ╔╗  \n")
-    stdout.write("      " + Fore.LIGHTCYAN_EX + "  ║╔═╗║  ║║╚╗ ║║  ║║      ╚╗  ╔╝  \n")
-    stdout.write("      " + Fore.LIGHTCYAN_EX + "  ║║ ║║  ║╔╗╚╗║║  ║║       ╚╗╔╝   \n")
-    stdout.write("      " + Fore.LIGHTCYAN_EX + "  ║║ ║║  ║║╚╗║║║  ║║        ║║    \n")
-    stdout.write("      " + Fore.LIGHTCYAN_EX + "  ║╚═╝║  ║║ ║╚╝║  ║╚════╗   ║║    \n")
-    stdout.write("      " + Fore.LIGHTCYAN_EX + "  ╚═══╝  ╚╝ ╚══╝  ╚═════╝   ╚╝    \n")
-    stdout.write("   " + Fore.LIGHTCYAN_EX + "══════════════════════════════════════\n")
-    stdout.write("   " + Fore.LIGHTCYAN_EX + "║    " + Fore.WHITE + "Welcome To The Main Screen Of ONLY" + Fore.LIGHTCYAN_EX + "    ║\n")
-    stdout.write("   " + Fore.LIGHTCYAN_EX + "║       " + Fore.WHITE + "Type [help] to see Commands" + Fore.LIGHTCYAN_EX + "       ║\n")
-    stdout.write("   " + Fore.LIGHTCYAN_EX + "║   " + Fore.WHITE + "Updated 2026 - Ultimate DDoS Power" + Fore.LIGHTCYAN_EX + "   ║\n")
-    stdout.write("   " + Fore.LIGHTCYAN_EX + "║          " + Fore.RED + "1,528 User-Agents Ready!" + Fore.LIGHTCYAN_EX + "      ║\n")
-    stdout.write("   " + Fore.LIGHTCYAN_EX + "══════════════════════════════════════\n")
+    stdout.write("\n")
+    # شعار ONLY بالخط المجوف
+    stdout.write(Fore.LIGHTCYAN_EX + "      ╔═══╗  ╔═╗  ╔╗  ╔╗      ╔╗  ╔╗\n")
+    stdout.write(Fore.LIGHTCYAN_EX + "      ║╔═╗║  ║║╚╗ ║║  ║║      ╚╗  ╔╝\n")
+    stdout.write(Fore.LIGHTCYAN_EX + "      ║║ ║║  ║╔╗╚╗║║  ║║       ╚╗╔╝ \n")
+    stdout.write(Fore.LIGHTCYAN_EX + "      ║║ ║║  ║║╚╗║║║  ║║        ║║  \n")
+    stdout.write(Fore.LIGHTCYAN_EX + "      ║╚═╝║  ║║ ║╚╝║  ║╚════╗   ║║  \n")
+    stdout.write(Fore.LIGHTCYAN_EX + "      ╚═══╝  ╚╝ ╚══╝  ╚═════╝   ╚╝  \n")
+    
+    # الإطار والنصوص الترحيبية
+    stdout.write(Fore.LIGHTCYAN_EX + "   ╔═══════════════════════════════════════╗\n")
+    stdout.write(Fore.LIGHTCYAN_EX + "   ║  " + Fore.WHITE + "Welcome To The Main Screen Of ONLY" + Fore.LIGHTCYAN_EX + "   ║  ╗\n")
+    stdout.write(Fore.LIGHTCYAN_EX + "   ║     " + Fore.WHITE + "Type [help] to see Commands" + Fore.LIGHTCYAN_EX + "      ║  ║\n")
+    stdout.write(Fore.LIGHTCYAN_EX + "   ║  " + Fore.WHITE + "Updated 2026 - Ultimate DDoS Power" + Fore.LIGHTCYAN_EX + "   ║ ╝\n")
+    stdout.write(Fore.LIGHTCYAN_EX + "   ║        " + Fore.RED + "1,528 User-Agents Ready!" + Fore.LIGHTCYAN_EX + "      ║\n")
+    stdout.write(Fore.LIGHTCYAN_EX + "   ╚═══════════════════════════════════════╝\n")
     stdout.write("\n")
 ##############################################################################################
 def command():
